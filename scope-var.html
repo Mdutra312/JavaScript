@@ -1,0 +1,28 @@
+<script>
+
+    
+    {
+        //console.log("existe y depois do scope? sim", y)
+        console.log("existe y antes do bloco?", y)
+        let y=0
+}
+
+console.log("existe y depois do bloco?", y)
+
+    // var é o global, const e let é scope local
+    // a sobreescrita de código de variáel pode ser feita
+    
+    
+
+// aqui o valor que foi sobreescrito dentro da variável do escopo mudou o valor
+// da minha variável
+    let n=1
+
+{
+     n=0
+
+}
+
+console.log("existe y depois do bloco?", n)
+
+</script>
